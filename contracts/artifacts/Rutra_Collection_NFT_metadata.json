@@ -365,6 +365,19 @@
 				"inputs": [
 					{
 						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					}
+				],
+				"name": "safeMint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
 						"name": "from",
 						"type": "address"
 					},
@@ -789,11 +802,11 @@
 			]
 		},
 		"contracts/MyToken.sol": {
-			"keccak256": "0xc206282a0eee20925f3e6dd56396c70a68f77d95c64dba077d47a286016ae20b",
+			"keccak256": "0x298e8ad2935d13680ef1d51ff85e114bdceae9ee8dae62930f9ac4c629f37216",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2bd8be3de18a2693684efc3db460091e732d245b37945e0a3960461e7f141444",
-				"dweb:/ipfs/QmSHNLANh3SZT3bpGZ1KWM5CzMgNkjjZ5ydMzqwFYr5di1"
+				"bzz-raw://83f4a130975431ce06fa60312163618f40e4918e8f41541a889aa873d036f650",
+				"dweb:/ipfs/Qma7Jc52p3BVDuzLUxnc8zEpogz354c42RqtSDKtjL27b3"
 			]
 		}
 	},
