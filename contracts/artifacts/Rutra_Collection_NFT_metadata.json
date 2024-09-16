@@ -728,7 +728,7 @@
 		"compilationTarget": {
 			"contracts/MyToken.sol": "Rutra_Collection_NFT"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
