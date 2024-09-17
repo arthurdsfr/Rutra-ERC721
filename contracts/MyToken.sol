@@ -12,6 +12,8 @@ contract Rutra_Collection_NFT is ERC721URIStorage, Ownable {
 
         using Counters for Counters.Counter;
     Counters.Counter private _tokenIdCounter;
+    uint256 public maxSupply = 1000; 
+
     // ==== 2. Lifecycle methods =====//
 
     constructor() ERC721("RutraNFT", "RUTRA") Ownable(msg.sender) {
@@ -20,6 +22,7 @@ contract Rutra_Collection_NFT is ERC721URIStorage, Ownable {
     // ==== 3. Mint/Burn Functions ====//
 
      function safeMint(address _to, string memory tokenURI) public onlyOwner {
+        require(_tokenIdCounter.current() + 1 < maxSupply, "100% supply deployed" );
         uint256 tokenId = _tokenIdCounter.current();
         _tokenIdCounter.increment();
         _safeMint(_to, tokenId); // more securized than _mint

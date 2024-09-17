@@ -343,6 +343,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "maxSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "name",
 				"outputs": [
 					{
@@ -728,7 +741,7 @@
 		"compilationTarget": {
 			"contracts/MyToken.sol": "Rutra_Collection_NFT"
 		},
-		"evmVersion": "london",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -877,11 +890,11 @@
 			]
 		},
 		"contracts/MyToken.sol": {
-			"keccak256": "0x703528f4a33f7dcbac0cab82fa80b0666eab1b8622730f0535f629bd08b6aaed",
+			"keccak256": "0x2c0ef083f6867f626f9b68eeedde95406c9efe5739691bb9a19e49e03fe114f8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://36da25095a17d13f1c3c965c9f7afa4a31e50d6d3381c157d77903fe40ed8069",
-				"dweb:/ipfs/QmQ3jxN5QkDnseygCZ3vfjovfsEEgCQmURvgbBKWA2UmMj"
+				"bzz-raw://16b4a46dfae38107a5bd5eb85644af0b1f7611760cb77475d89cdf3a53fb8c0f",
+				"dweb:/ipfs/QmPBZ97ytvti8dmaYjBMruEuMwEdmch4wVgcvMpXqbWoY9"
 			]
 		}
 	},
